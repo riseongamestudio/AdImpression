@@ -1,0 +1,17 @@
+{
+    "name": "RiseOn.Analytics.AdMob",
+    "rootNamespace": "RiseOn.Analytics.AdMob",
+    "references": [
+        "RiseOn.Analytics",
+        "AppsFlyer"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
