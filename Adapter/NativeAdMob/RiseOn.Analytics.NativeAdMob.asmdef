@@ -1,10 +1,10 @@
 {
-    "name": "RiseOn.Analytics.AdMax",
-    "rootNamespace": "RiseOn.Analytics.AdMax",
+    "name": "RiseOn.Analytics.NativeAdMob",
+    "rootNamespace": "RiseOn.Analytics.NativeAdMob",
     "references": [
         "RiseOn.Analytics",
         "AppsFlyer",
-        "MaxSdk.Scripts"
+        "RiseOn.NativeAdMob"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
