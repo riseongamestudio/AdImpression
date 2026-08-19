@@ -1,5 +1,5 @@
-using RiseOn.NativeAdMob;
 using AppsFlyerSDK;
+using RiseOn.NativeAdMob;
 
 namespace RiseOn.Analytics.NativeAdMob {
     public static class NativeAdMobAdapter {

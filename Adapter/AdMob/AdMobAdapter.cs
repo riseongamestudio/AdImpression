@@ -1,5 +1,5 @@
-using GoogleMobileAds.Api;
 using AppsFlyerSDK;
+using GoogleMobileAds.Api;
 
 namespace RiseOn.Analytics.AdMob {
     public static class AdMobAdapter {
