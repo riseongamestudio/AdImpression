@@ -1,0 +1,24 @@
+{
+    "name": "RiseOn.AdImpression.AdMob",
+    "rootNamespace": "RiseOn.AdImpression.AdMob",
+    "references": [
+        "RiseOn.AdImpression"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "HAS_ADMOB"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.google.ads.mobile",
+            "expression": "",
+            "define": "HAS_ADMOB"
+        }
+    ],
+    "noEngineReferences": false
+}

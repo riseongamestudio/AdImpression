@@ -1,0 +1,25 @@
+{
+    "name": "RiseOn.AdImpression.NativeAdMob",
+    "rootNamespace": "RiseOn.AdImpression.NativeAdMob",
+    "references": [
+        "RiseOn.AdImpression",
+        "RiseOn.NativeAdMob"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "HAS_NATIVEADMOB"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.riseon.nativeadmob",
+            "expression": "",
+            "define": "HAS_NATIVEADMOB"
+        }
+    ],
+    "noEngineReferences": false
+}

@@ -1,9 +1,8 @@
-using AppsFlyerSDK;
 using RiseOn.NativeAdMob;
 
-namespace RiseOn.Analytics.NativeAdMob {
+namespace RiseOn.AdImpression.NativeAdMob {
     public static class NativeAdMobAdapter {
-        private const MediationNetwork MEDIATION = MediationNetwork.GoogleAdMob;
+        private const Mediation MEDIATION = Mediation.GoogleAdMob;
 
         public static AdImpression ToImpression(this AdInfo adInfo) => new(
             source: adInfo.Source

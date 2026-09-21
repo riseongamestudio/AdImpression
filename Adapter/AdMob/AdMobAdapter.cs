@@ -1,10 +1,9 @@
-using AppsFlyerSDK;
 using GoogleMobileAds.Api;
 
-namespace RiseOn.Analytics.AdMob {
+namespace RiseOn.AdImpression.AdMob {
     public static class AdMobAdapter {
-        private const MediationNetwork MEDIATION        = MediationNetwork.GoogleAdMob;
-        private const double           VALUE_MULTIPLIER = 1e-6;
+        private const Mediation MEDIATION = Mediation.GoogleAdMob;
+        private const double VALUE_MULTIPLIER = 1e-6;
 
         private readonly struct AdInfo {
             public readonly string Source;

@@ -1,11 +1,7 @@
 {
-    "name": "RiseOn.Analytics.AdMax",
-    "rootNamespace": "RiseOn.Analytics.AdMax",
-    "references": [
-        "RiseOn.Analytics",
-        "AppsFlyer",
-        "MaxSdk.Scripts"
-    ],
+    "name": "RiseOn.AdImpression",
+    "rootNamespace": "RiseOn.AdImpression",
+    "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

@@ -1,0 +1,25 @@
+{
+    "name": "RiseOn.AdImpression.AdMax",
+    "rootNamespace": "RiseOn.AdImpression.AdMax",
+    "references": [
+        "RiseOn.AdImpression",
+        "MaxSdk.Scripts"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "HAS_ADMAX"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.applovin.mediation.ads",
+            "expression": "",
+            "define": "HAS_ADMAX"
+        }
+    ],
+    "noEngineReferences": false
+}

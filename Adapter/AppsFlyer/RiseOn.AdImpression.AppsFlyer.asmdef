@@ -1,0 +1,25 @@
+{
+    "name": "RiseOn.AdImpression.AppsFlyer",
+    "rootNamespace": "RiseOn.AdImpression.AppsFlyer",
+    "references": [
+        "RiseOn.AdImpression",
+        "AppsFlyer"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "HAS_APPSFLYER"
+    ],
+    "versionDefines": [
+        {
+            "name": "appsflyer-unity-plugin",
+            "expression": "",
+            "define": "HAS_APPSFLYER"
+        }
+    ],
+    "noEngineReferences": false
+}

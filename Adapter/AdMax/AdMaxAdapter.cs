@@ -1,9 +1,7 @@
-using AppsFlyerSDK;
-
-namespace RiseOn.Analytics.AdMax {
+namespace RiseOn.AdImpression.AdMax {
     public static class AdMaxAdapter {
-        private const MediationNetwork MEDIATION = MediationNetwork.ApplovinMax;
-        private const string           CURRENCY  = "USD";
+        private const Mediation MEDIATION = Mediation.ApplovinMax;
+        private const string CURRENCY = "USD";
 
         public static AdImpression ToImpression(this MaxSdkBase.AdInfo adInfo) => new(
             source: adInfo.NetworkName
