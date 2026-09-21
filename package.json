@@ -1,6 +1,9 @@
 {
   "name": "com.riseon.adimpression",
-  "version": "1.0.0",
-  "displayName": "AdImpression",
-  "description": "Unified ad impression revenue data with adapters for AppLovin MAX, AdMob, NativeAdMob and AppsFlyer"
+  "version": "1.0.1",
+  "displayName": "Ad Impression",
+  "description": "Unified ad impression revenue data with adapters for AppLovin MAX, AdMob, NativeAdMob and AppsFlyer",
+  "author": {
+    "name": "RiseOn"
+  }
 }
