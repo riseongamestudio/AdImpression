@@ -1,8 +1,9 @@
 {
   "name": "com.riseon.adimpression",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "displayName": "Ad Impression",
   "description": "Unified ad impression revenue data with adapters for AppLovin MAX, AdMob, NativeAdMob and AppsFlyer",
+  "documentationUrl": "https://github.com/riseongamestudio/AdImpression/blob/v1.0.2/README.md",
   "author": {
     "name": "RiseOn"
   }

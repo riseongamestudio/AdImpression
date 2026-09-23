@@ -3,11 +3,13 @@ using UnityEngine;
 
 namespace RiseOn.AdImpression.AppsFlyer {
     public static class AppsFlyerAdapter {
-        public static AFAdRevenueData ToAdRevenueData(this AdImpression impression) => new(
-            monetization: impression.Source
-          , mediation: impression.Mediation.ToAppsFlyerMediation()
-          , currency: impression.Currency
-          , revenue: impression.Value);
+        public static AFAdRevenueData ToAdRevenueData(this AdImpression impression) {
+            return new(
+                monetization: impression.Source
+              , mediation: impression.Mediation.ToAppsFlyerMediation()
+              , currency: impression.Currency
+              , revenue: impression.Value);
+        }
 
         public static MediationNetwork ToAppsFlyerMediation(this Mediation mediation) => mediation switch {
             Mediation.GoogleAdMob => MediationNetwork.GoogleAdMob
