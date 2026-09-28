@@ -11,13 +11,13 @@
     "precompiledReferences": [],
     "autoReferenced": true,
     "defineConstraints": [
-        "HAS_ADMOB"
+        "ADIMPRESSION_SUPPORT_ADMOB"
     ],
     "versionDefines": [
         {
             "name": "com.google.ads.mobile",
             "expression": "",
-            "define": "HAS_ADMOB"
+            "define": "ADIMPRESSION_SUPPORT_ADMOB"
         }
     ],
     "noEngineReferences": false

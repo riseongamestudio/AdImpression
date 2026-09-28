@@ -15,10 +15,10 @@ báo lỗi.
 
 | Adapter | Chiều | Bật khi có package | Symbol | Hàm |
 |---|---|---|---|---|
-| `RiseOn.AdImpression.AdMax` | MAX → AdImpression | `com.applovin.mediation.ads` | `HAS_ADMAX` | `adInfo.ToImpression()` với `MaxSdkBase.AdInfo` |
-| `RiseOn.AdImpression.AdMob` | AdMob → AdImpression | `com.google.ads.mobile` | `HAS_ADMOB` | `adValue.ToImpression(ad)` với `ad` là `AppOpenAd`, `BannerView`, `InterstitialAd`, `RewardedAd`, `RewardedInterstitialAd`, `NativeOverlayAd` |
-| `RiseOn.AdImpression.NativeAdMob` | NativeAdMob → AdImpression | `com.riseon.nativeadmob` | `HAS_NATIVEADMOB` | `adInfo.ToImpression()` với `RiseOn.NativeAdMob.AdInfo` |
-| `RiseOn.AdImpression.AppsFlyer` | AdImpression → AppsFlyer | `appsflyer-unity-plugin` | `HAS_APPSFLYER` | `impression.ToAdRevenueData()`, `mediation.ToAppsFlyerMediation()` |
+| `RiseOn.AdImpression.AdMax` | MAX → AdImpression | `com.applovin.mediation.ads` | `ADIMPRESSION_SUPPORT_ADMAX` | `adInfo.ToImpression()` với `MaxSdkBase.AdInfo` |
+| `RiseOn.AdImpression.AdMob` | AdMob → AdImpression | `com.google.ads.mobile` | `ADIMPRESSION_SUPPORT_ADMOB` | `adValue.ToImpression(ad)` với `ad` là `AppOpenAd`, `BannerView`, `InterstitialAd`, `RewardedAd`, `RewardedInterstitialAd`, `NativeOverlayAd` |
+| `RiseOn.AdImpression.NativeAdMob` | NativeAdMob → AdImpression | `com.riseon.nativeadmob` | `ADIMPRESSION_SUPPORT_NATIVEADMOB` | `adInfo.ToImpression()` với `RiseOn.NativeAdMob.AdInfo` |
+| `RiseOn.AdImpression.AppsFlyer` | AdImpression → AppsFlyer | `appsflyer-unity-plugin` | `ADIMPRESSION_SUPPORT_APPSFLYER` | `impression.ToAdRevenueData()`, `mediation.ToAppsFlyerMediation()` |
 
 Unity chỉ nhận ra SDK cài qua UPM. SDK import bằng `.unitypackage`, hoặc AppsFlyer
 bản OpenUPM (`com.appsflyer.unity`, khác tên package), thì thêm tay symbol tương

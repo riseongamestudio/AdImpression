@@ -46,7 +46,7 @@ tương ứng; SDK cài không qua UPM thì thêm define tay, xem
     }
   ],
   "dependencies": {
-    "com.riseon.adimpression": "1.0.2"
+    "com.riseon.adimpression": "1.0.3"
   }
 }
 ```
@@ -54,7 +54,7 @@ tương ứng; SDK cài không qua UPM thì thêm define tay, xem
 **Git URL**: *Package Manager → + → Add package from git URL*:
 
 ```
-https://github.com/riseongamestudio/AdImpression.git#v1.0.2
+https://github.com/riseongamestudio/AdImpression.git#v1.0.3
 ```
 
 ## Tổng quan

@@ -12,13 +12,13 @@
     "precompiledReferences": [],
     "autoReferenced": true,
     "defineConstraints": [
-        "HAS_ADMAX"
+        "ADIMPRESSION_SUPPORT_ADMAX"
     ],
     "versionDefines": [
         {
             "name": "com.applovin.mediation.ads",
             "expression": "",
-            "define": "HAS_ADMAX"
+            "define": "ADIMPRESSION_SUPPORT_ADMAX"
         }
     ],
     "noEngineReferences": false

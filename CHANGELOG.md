@@ -4,6 +4,16 @@ Mọi thay đổi đáng kể của `com.riseon.adimpression` được ghi ở �
 [Keep a Changelog](https://keepachangelog.com/vi/1.1.0/), đánh số theo
 [Semantic Versioning](https://semver.org/lang/vi/).
 
+## [1.0.3] - 2026-09-28
+
+### Thay đổi
+
+- Symbol bật các adapter mang tiền tố tên pack để không trùng với symbol project tự đặt:
+  `HAS_ADMAX` thành `ADIMPRESSION_SUPPORT_ADMAX`, `HAS_ADMOB` thành
+  `ADIMPRESSION_SUPPORT_ADMOB`, `HAS_APPSFLYER` thành `ADIMPRESSION_SUPPORT_APPSFLYER`,
+  `HAS_NATIVEADMOB` thành `ADIMPRESSION_SUPPORT_NATIVEADMOB`. Các symbol này tự sinh khi
+  project có package tương ứng, nên project đang dùng không phải sửa gì.
+
 ## [1.0.2] - 2026-09-23
 
 ### Thay đổi

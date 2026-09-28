@@ -12,13 +12,13 @@
     "precompiledReferences": [],
     "autoReferenced": true,
     "defineConstraints": [
-        "HAS_APPSFLYER"
+        "ADIMPRESSION_SUPPORT_APPSFLYER"
     ],
     "versionDefines": [
         {
             "name": "appsflyer-unity-plugin",
             "expression": "",
-            "define": "HAS_APPSFLYER"
+            "define": "ADIMPRESSION_SUPPORT_APPSFLYER"
         }
     ],
     "noEngineReferences": false

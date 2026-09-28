@@ -12,13 +12,13 @@
     "precompiledReferences": [],
     "autoReferenced": true,
     "defineConstraints": [
-        "HAS_NATIVEADMOB"
+        "ADIMPRESSION_SUPPORT_NATIVEADMOB"
     ],
     "versionDefines": [
         {
             "name": "com.riseon.nativeadmob",
             "expression": "",
-            "define": "HAS_NATIVEADMOB"
+            "define": "ADIMPRESSION_SUPPORT_NATIVEADMOB"
         }
     ],
     "noEngineReferences": false
